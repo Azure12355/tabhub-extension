@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <clipPath id="round"><rect x="0" y="0" width="128" height="128" rx="26" ry="26"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <!-- 米黄底（Pages paper） -->
+    <rect width="128" height="128" fill="#FFFBF3"/>
+    <!-- 左下：深墨色大方块（base layer，像一张被压在底下的 tab） -->
+    <rect x="14" y="58" width="56" height="56" rx="10" fill="#0E0F12"/>
+    <!-- 中间：橙色斜方块（旋转 45°，picks tab） -->
+    <g transform="translate(72 56) rotate(45)">
+      <rect x="-22" y="-22" width="44" height="44" rx="6" fill="#FF5A2E"/>
+    </g>
+    <!-- 右上：黄色三角形 -->
+    <polygon points="78,12 116,12 97,46" fill="#FFD83A"/>
+    <!-- 左上：小黑圆点 -->
+    <circle cx="32" cy="28" r="9" fill="#0E0F12"/>
+    <!-- 装饰横线 -->
+    <rect x="22" y="48" width="20" height="3" rx="1.5" fill="#0E0F12"/>
+  </g>
+  <!-- 外圈描边（仅 128 用，16/48 自动均匀） -->
+  <rect x="1" y="1" width="126" height="126" rx="25" ry="25" fill="none" stroke="#0E0F12" stroke-width="2" opacity="0.18"/>
+</svg>
